@@ -1,0 +1,38 @@
+{
+  "name": "preentrega2-bastarreix",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "firebase": "^10.10.0",
+    "fslightbox-react": "^1.7.6",
+    "mdb-react-ui-kit": "^7.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-loading": "^2.0.3",
+    "react-lottie": "^1.2.4",
+    "react-multi-carousel": "^2.8.5",
+    "react-router-dom": "^6.22.3",
+    "react-status-alert": "^1.3.1",
+    "yet-another-react-lightbox": "^3.17.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.6"
+  }
+}
