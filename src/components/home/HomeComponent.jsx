@@ -80,7 +80,7 @@ export default function HomeComponent() {
           </Card.Footer>
         </Card>
         <Card style={{ borderRadius: '5%' }}>
-          <Link to={'/products/MLU1144/Consolas y video juegos/'}> <Card.Img style={imgEstilo} variant="top" src={window.location.origin + '/src/assets/ps5.jpg'} onMouseOver={({ target }) => target.style.transform = 'scale(1.1)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} /></Link>
+          <Link to={'/products/MLU1144/Consolas y video juegos/'}> <Card.Img style={imgEstilo} variant="top" src={'https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/ps5.jpg'} onMouseOver={({ target }) => target.style.transform = 'scale(1.1)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} /></Link>
           <Card.Body>
             <Card.Title>Consolas y video juegos</Card.Title>
             <Card.Text>
