@@ -56,7 +56,7 @@ export default function HomeComponent() {
 
       <CardGroup style={{ margin: '30px' }}>
         <Card style={{ borderRadius: '5%' }}>
-          <Link to={'/products/MLU1051/Celulares y telefonía/'} ><Card.Img style={imgEstilo} onMouseOver={({ target }) => target.style.transform = 'scale(1.1)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} variant="top" src={window.location.origin + '/src/assets/smartphones.webp'} /></Link>
+          <Link to={'/products/MLU1051/Celulares y telefonía/'} ><Card.Img style={imgEstilo} onMouseOver={({ target }) => target.style.transform = 'scale(1.1)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} variant="top" src={'https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/smartphones.webp'} /></Link>
           <Card.Body>
             <Card.Title>Celulares y telefonía</Card.Title>
             <Card.Text>
@@ -68,7 +68,7 @@ export default function HomeComponent() {
           </Card.Footer>
         </Card >
         <Card style={{ borderRadius: '5%' }}>
-          <Link to={'/products/MLU1648/Informática/'}> <Card.Img style={imgEstilo} variant="top" onMouseOver={({ target }) => target.style.transform = 'scale(1.1)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} src={window.location.origin + '/src/assets/computadoras.jpg'} /></Link>
+          <Link to={'/products/MLU1648/Informática/'}> <Card.Img style={imgEstilo} variant="top" onMouseOver={({ target }) => target.style.transform = 'scale(1.1)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} src={'https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/computadoras.jpg'} /></Link>
           <Card.Body>
             <Card.Title>Informática</Card.Title>
             <Card.Text>
@@ -103,7 +103,7 @@ export default function HomeComponent() {
           <div class="row" >
             <div class="col col-lg-2"  >
               <div   className="ratio ratio-1x1 rounded-circle overflow-hidden" style={{ width: '100%', margin: '10px' }} >
-                <img style={{ transition: '0.5s', objectFit: 'cover',}} onMouseOver={({ target }) => target.style.transform = 'scale(2)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} src={window.location.origin + '/src/assets/yo.jpg'} className="card-img-top img-cover" alt="Raeesh" />
+                <img style={{ transition: '0.5s', objectFit: 'cover',}} onMouseOver={({ target }) => target.style.transform = 'scale(2)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} src={'https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/yo.jpg'} className="card-img-top img-cover" alt="Raeesh" />
 
               </div>
             </div>
