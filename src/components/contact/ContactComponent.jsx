@@ -20,7 +20,7 @@ export default function ContactComponent() {
 
         <div className="row justify-content-md-center  ">
 
-          <div className="col col-lg-4 shadow-lg " style={{backgroundImage:'url('+window.location.origin + '/src/assets/contact.jpg)', backgroundSize:'100%'}}>
+                   <div className="col col-lg-4 shadow-lg " style={{backgroundImage:'url("https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/contact.jpg")', backgroundSize:'100%'}}>
 
           </div>
           <div className="col-md-auto col-lg-6 shadow-lg " style={{backgroundColor:'#f9eca1'}}  >
