@@ -206,7 +206,7 @@ export default function NavBarComponent({ cantArticulos, buscar, cadena }) {
 
         <nav id='navPrincipal' className="navbar navbar-expand-lg bg-dark shadow-lg" data-bs-theme="dark">
           <div className="container">
-            <a className="navbar-brand" href="#"> <Link style={linkStyle} to={'/'}><img style={imgEstilo} src={window.location.origin + '/src/assets/logo.png'} /></Link></a>
+            <a className="navbar-brand" href="#"> <Link style={linkStyle} to={'/'}><img style={imgEstilo} src={'https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/logo.png'} /></Link></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
