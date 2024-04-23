@@ -155,7 +155,7 @@ export default function HomeComponent() {
         <br></br> 
       </section>
 
-      <section style={{backgroundImage:'url('https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/bk.jpg)', backgroundSize:'100%'}}>
+      <section style={{backgroundImage:'url("https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/bk.png")', backgroundSize:'100%'}}>
       <ContactComponent />
       <br></br> <br></br> <br></br>
       </section>
