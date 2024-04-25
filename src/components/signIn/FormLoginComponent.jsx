@@ -62,7 +62,7 @@ export default function FormLoginComponent({modal, setModal}) {
                 </Modal.Header>
                 <Modal.Body>
                     <form>
-                        <img style={logoEstilo} src={window.location.origin + '/src/assets/logo_bk.png'} />
+                        <img style={logoEstilo} src={'https://raw.githubusercontent.com/MarianoBB1988/EntregaFinal-MarianoBastarreix/main/src/assets/logo_bk.png'} />
                         <br></br><br></br>
                         <div className="mb-3">
 
@@ -106,7 +106,7 @@ export default function FormLoginComponent({modal, setModal}) {
                         <div style={separadorEstilo} className="or-container"><div style={lineaEstilo} className="line-separator"></div> <div style={orEstilo} className="or-label">or</div><div style={lineaEstilo} className="line-separator"></div></div>
 
                         <div className="d-grid">
-                            <a className="btn btn-light" style={{ fontSize: '13px' }} href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png" /> Inciciar sesión con Google</a>
+                            <a className="btn btn-light" style={{ fontSize: '13px' }} href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png" /> Iniciar sesión con Google</a>
                        <SignInComponent />
                         </div>
 
