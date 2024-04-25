@@ -156,7 +156,7 @@ export default function ProductsComponent({ agregar }) {
         ) : (
           myProds.map((prod) => (
 
-            <div className="row row-cols-3 g-3">
+            <div className="row row-cols1  row-cols-sm-3 row-cols-md-3 row cols-lg4 g-3">
 
               {prod.items.map((producto) => (
 
