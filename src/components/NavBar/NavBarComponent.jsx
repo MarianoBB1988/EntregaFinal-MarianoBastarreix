@@ -91,11 +91,11 @@ export default function NavBarComponent({ cantArticulos, buscar, cadena }) {
 
       let opacidad = (900 - aux) / 800;
 
-     
+
       console.log('op: ' + parseInt(opacidad))
       if (opacidad <= 1) {
-     
-        document.getElementById("navBusqueda").style.opacity =0;
+
+        document.getElementById("navBusqueda").style.opacity = 0;
         document.getElementById("header").style.transform = 'scale(0.85)';
         document.getElementById("navPrincipal").style.borderTopLeftRadius = '1em 1em';
         document.getElementById("navPrincipal").style.borderTopRightRadius = '1em 1em';
@@ -106,10 +106,10 @@ export default function NavBarComponent({ cantArticulos, buscar, cadena }) {
         document.getElementById("navBusqueda").style.borderBottomRightRadius = '1em 1em';
         document.getElementById("navBusqueda").style.borderBottomLeftRadius = '1em 1em';
       }
-      else  {
-        
-        document.getElementById("navBusqueda").style.transition = 'opacity 1s'; 
-        document.getElementById("navBusqueda").style.opacity =1;
+      else {
+
+        document.getElementById("navBusqueda").style.transition = 'opacity 1s';
+        document.getElementById("navBusqueda").style.opacity = 1;
 
         document.getElementById("header").style.transform = 'scale(1)';
         document.getElementById("navPrincipal").style.borderTopLeftRadius = '0em 0em';
@@ -257,14 +257,18 @@ export default function NavBarComponent({ cantArticulos, buscar, cadena }) {
 
 
               <a style={faEstilo} title='Compras' className='text-white '>  <CartWidget />{isNaN(parseInt(localStorage.getItem('cantidad'))) ? '' : <span style={pEstilo}>{cantidad} </span>}</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-              <SignInComponent />
-            </div>
 
+              <SignInComponent  />
+
+              
+         
+            </div>
+           
           </div>
 
         </nav>
 
-        <nav className="navbar navbar-expand-lg" id='navBusqueda' style={{ backgroundColor: '#f8d303' }} data-bs-theme="dark">
+        <nav className="navbar-expand-lg" id='navBusqueda' style={{ backgroundColor: '#f8d303' }} data-bs-theme="dark">
           <div className="container">
 
             <div className="collapse navbar-collapse " id="navbarSupportedContent">
@@ -274,7 +278,7 @@ export default function NavBarComponent({ cantArticulos, buscar, cadena }) {
               <ul className="me-auto mb-4 mb-lg-0 col-lg-12 ">
                 <div className="input-group" >
                   <input style={dropStyle} id="txtBusqueda" onClick={cargarBusqueda} onChange={cargarBusqueda} type="search" className="form-control rounded" placeholder="🔍    Que estas buscando?     " aria-label="Search" aria-describedby="search-addon" />
-                <button className='bg-transparent' style={{border:'0px'}}>  <Link style={{ color: 'black', fontSize: '16px' }} id='linkBuscar' to={'/search/' + busqueda}><FaSearch onMouseOver={({ target }) => target.style.color = "yellow"} onMouseOut={({ target }) => target.style.color = "black"} style={btnStyle} />
+                  <button className='bg-transparent' style={{ border: '0px' }}>  <Link style={{ color: 'black', fontSize: '16px' }} id='linkBuscar' to={'/search/' + busqueda}><FaSearch onMouseOver={({ target }) => target.style.color = "yellow"} onMouseOut={({ target }) => target.style.color = "black"} style={btnStyle} />
                   </Link>
                   </button>
                 </div>
@@ -293,7 +297,7 @@ export default function NavBarComponent({ cantArticulos, buscar, cadena }) {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
+
 
 
 
