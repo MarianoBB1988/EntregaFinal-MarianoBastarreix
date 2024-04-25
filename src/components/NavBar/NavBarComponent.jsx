@@ -253,17 +253,16 @@ export default function NavBarComponent({ cantArticulos, buscar, cadena }) {
 
 
               </ul>
-              <a href='#' title='Contacto' style={faEstilo} onMouseOver={({ target }) => target.style.color = "yellow"} onMouseOut={({ target }) => target.style.color = "white"}><Link style={faEstilo} to={'/contact'}>&nbsp; &nbsp;&nbsp;&nbsp;<FaEnvelope /> &nbsp;&nbsp; &nbsp;</Link></a>&nbsp;
 
+
+            </div>
+            <div>
+              <a href='#' title='Contacto' style={faEstilo} onMouseOver={({ target }) => target.style.color = "yellow"} onMouseOut={({ target }) => target.style.color = "white"}><Link style={faEstilo} to={'/contact'}>&nbsp; &nbsp;&nbsp;&nbsp;<FaEnvelope /> &nbsp;&nbsp; &nbsp;</Link></a>&nbsp;
 
               <a style={faEstilo} title='Compras' className='text-white '>  <CartWidget />{isNaN(parseInt(localStorage.getItem('cantidad'))) ? '' : <span style={pEstilo}>{cantidad} </span>}</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
 
-              <SignInComponent  />
-
-              
-         
+              <SignInComponent />
             </div>
-           
           </div>
 
         </nav>
