@@ -38,6 +38,7 @@ export default function SingleProduct({ agregar, cont }) {
 
 
     function abrirLigthbox(ruta) {
+        console.log(ruta)
         setLightboxController({
             toggler: !lightboxController.toggler,
             ruta: ruta
