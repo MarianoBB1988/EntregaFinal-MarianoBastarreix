@@ -11,7 +11,7 @@ export default function CardComponent(props) {
   const [contador, setContador] = useState(0);
 
   const imgEstilo = {
-    width:'35%',
+    width:'70%',
     height:'100%',
     transition:'0.5s',
     objectFit:'cover'
@@ -95,13 +95,13 @@ export default function CardComponent(props) {
 
       <div className="col" >
         <div className="card shadow" >
-          <Link style={{backgroundColor:'white'}} className="btn btn-link btn-light" onClick={agregarVistos} to={'/product/' + props.product.id_prod + '/' + props.cat}><img  onMouseOver={({ target }) => target.style.transform= 'scale(1.1)'} onMouseOut={({ target }) =>target.style.transform= 'scale(1)'} style={imgEstilo} src={props.product.thumbnail} className="card-img-top"
+          <Link style={{backgroundColor:'white'}} className="btn btn-link btn-light" onClick={agregarVistos} to={'/product/' + props.product.id_prod + '/' + props.cat}><img  onMouseOver={({ target }) => target.style.transform= 'scale(1.1)'} onMouseOut={({ target }) =>target.style.transform= 'scale(1)'} style={imgEstilo} src={'http://http2.mlstatic.com/D_' + props.product.thumbnail_id + '-O.webb'}  className="card-img-top"
             alt="imagen" /></Link>
 
           <div className="card-body">
 
             <p className="card-text" style={{ fontSize: '13px' }}>
-              {props.product.title}
+              {props.product.title.substr(0,60) + '...'}
             </p>
             <h5 className="card-title">{props.product.currency_id} <strong>{props.product.price}</strong></h5>
            
