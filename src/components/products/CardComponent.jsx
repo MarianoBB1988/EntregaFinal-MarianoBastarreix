@@ -11,26 +11,26 @@ export default function CardComponent(props) {
   const [contador, setContador] = useState(0);
 
   const imgEstilo = {
-    width:'70%',
-    height:'100%',
-    transition:'0.5s',
-    objectFit:'cover'
+
+    width: '40%',
+    height: '100%',
+
+    transition: '0.5s',
+   
 
   }
-  const zoomEstilo={
-  
-  }
+
 
 
   useEffect(() => {
-  
+
     localStorage.setItem('compras', JSON.stringify(compras));
-    localStorage.setItem('cantidad',cantidad);
-    
+    localStorage.setItem('cantidad', cantidad);
 
- });
 
-   function agregarVistos() {
+  });
+
+  function agregarVistos() {
 
     let i = 0;
     vistos.map((visto) => {
@@ -45,7 +45,7 @@ export default function CardComponent(props) {
     }
   }
 
-  
+
 
 
 
@@ -54,10 +54,10 @@ export default function CardComponent(props) {
     let cant = 0;
     console.log(cantidad)
     if (cantidad === 0) {
-      
+
       setCompras([...compras, { id_prod: props.product.id_prod, cantidad: 1, title: props.product.title, price: props.product.price, thumbnail: props.product.thumbnail, currency_id: props.product.currency_id }])
     } else {
-      
+
       const artModificado = compras.map((compra) => {
 
         if (compra.id_prod === props.product.id_prod) {
@@ -82,7 +82,7 @@ export default function CardComponent(props) {
     setCantidad(cantidad + 1)
     console.log('compras: ' + compras)
     localStorage.setItem('compras', JSON.stringify(compras));
-    localStorage.setItem('cantidad',cantidad);
+    localStorage.setItem('cantidad', cantidad);
 
     //localStorage.setItem('temp', JSON.stringify(compras));
     console.log('cantidad:' + compras.length)
@@ -93,27 +93,27 @@ export default function CardComponent(props) {
     <>
 
 
-      <div className="col" >
-        <div className="card shadow" >
-          <Link style={{backgroundColor:'white'}} className="btn btn-link btn-light" onClick={agregarVistos} to={'/product/' + props.product.id_prod + '/' + props.cat}><img  onMouseOver={({ target }) => target.style.transform= 'scale(1.1)'} onMouseOut={({ target }) =>target.style.transform= 'scale(1)'} style={imgEstilo} src={'http://http2.mlstatic.com/D_' + props.product.thumbnail_id + '-O.webb'}  className="card-img-top"
-            alt="imagen" /></Link>
 
-          <div className="card-body">
+      <div className="card shadow mx-auto" >
+        <Link style={{ backgroundColor: 'white' }} className="btn btn-link btn-light" onClick={agregarVistos} to={'/product/' + props.product.id_prod + '/' + props.cat}><img onMouseOver={({ target }) => target.style.transform = 'scale(1.1)'} onMouseOut={({ target }) => target.style.transform = 'scale(1)'} style={imgEstilo} src={'http://http2.mlstatic.com/D_' + props.product.thumbnail_id + '-O.webb'} className="card-img-top"
+          alt="imagen" /></Link>
 
-            <p className="card-text" style={{ fontSize: '13px' }}>
-              {props.product.title.substr(0,60) + '...'}
-            </p>
-            <h5 className="card-title">{props.product.currency_id} <strong>{props.product.price}</strong></h5>
-           
-            <div className="d-grid gap-2 ">
-              <button type="button" className="btn btn-dark" style={{ fontSize: '13px' }} data-mdb-ripple-init onClick={agregarCarrito} ><FaShoppingBag style={{ fontSize: '11px' }} />&nbsp; &nbsp;Agregar al carrito</button>
-            </div>
+        <div className="card-body">
 
+          <p className="card-text" style={{ fontSize: '13px' }}>
+            {props.product.title.substr(0, 60) + '...'}
+          </p>
+          <h5 className="card-title">{props.product.currency_id} <strong>{props.product.price}</strong></h5>
 
+          <div className="d-grid gap-2 ">
+            <button type="button" className="btn btn-dark" style={{ fontSize: '13px' }} data-mdb-ripple-init onClick={agregarCarrito} ><FaShoppingBag style={{ fontSize: '11px' }} />&nbsp; &nbsp;Agregar al carrito</button>
           </div>
-        </div>
 
+
+        </div>
       </div>
+
+
     </>
   );
 
