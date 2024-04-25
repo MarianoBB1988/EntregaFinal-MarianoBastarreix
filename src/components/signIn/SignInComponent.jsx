@@ -61,7 +61,7 @@ export default function SignInComponent() {
 
         return (
             <>
-                <div>
+                
                 {login ? 
                 <NavDropdown
                     id="Avatar"
@@ -85,7 +85,6 @@ export default function SignInComponent() {
                    
                     : <a href='#' onClick={logIn} title='Login' style={faEstilo} onMouseOver={({ target }) => target.style.color = "yellow"} onMouseOut={({ target }) => target.style.color = "white"}> &nbsp; <FaUser /> &nbsp; &nbsp;</a>}
 
-                </div>
             </>
         );
 
