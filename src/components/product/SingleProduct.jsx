@@ -162,7 +162,7 @@ export default function SingleProduct({ agregar, cont }) {
                                     <div className="card-body col-1">
                                     </div>
                                     <div className="card-body col-4"  >
-                                        <a href="#" onClick={() => abrirLigthbox('http://http2.mlstatic.com/D_' + producto.thumbnail_id + '-O.webb')}><img className="img-fluid" alt="Responsive image" style={imgEstilo} src={'http://http2.mlstatic.com/D_' + producto.thumbnail_id + '-O.webb'} /></a>
+                                        <a href="#" onClick={() => abrirLigthbox('https://http2.mlstatic.com/D_' + producto.thumbnail_id + '-O.webb')}><img className="img-fluid" alt="Responsive image" style={imgEstilo} src={'http://http2.mlstatic.com/D_' + producto.thumbnail_id + '-O.webb'} /></a>
 
                                     </div>
                                     <div className="card-body col-4">
