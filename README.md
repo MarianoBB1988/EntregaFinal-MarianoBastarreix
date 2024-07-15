@@ -2,6 +2,6 @@
  Entrega Final
  https://ecommerce-wpay.netlify.app/
 
- <h1>Tecnologías implementadas</h1>
-React JS
+ <h3>Tecnologías implementadas</h3>
+React JS <br>
 Firebase
