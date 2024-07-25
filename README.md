@@ -2,7 +2,7 @@
 E-Commerce: 
 <a href="https://ecommerce-wpay.netlify.app/">Demo </a>
 
-##Tecnologías implementadas 
+## Tecnologías implementadas 
 React JS <br>
 Firebase
 <vr></vr>
