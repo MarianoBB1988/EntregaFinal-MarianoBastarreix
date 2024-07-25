@@ -4,9 +4,9 @@
 <a href="https://ecommerce-wpay.netlify.app/">Demo </a>
 
 ## Tecnologías implementadas 🧑‍💻
-<p>React JS </p>
-<p>Firebase</p>
-<p>Bootstrap</p>
+* **React JS**
+* **Firebase**
+* **Bootstrap**
 
 ## Características destacadas 🔍
 
@@ -19,7 +19,7 @@
 <a href="https://drive.google.com/file/d/1rIp313jJVTa94x10txcnQEvK-Dlwnwbg/view?usp=sharing"> Ver video </a>
 
 ## Creado por 
-* **Mariano Bastarreix**
+<p>Mariano Bastarreix</p>
   
 ## Project setup
 ```
