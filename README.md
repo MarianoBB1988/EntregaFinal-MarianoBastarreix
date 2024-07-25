@@ -1,6 +1,6 @@
 <h1>Proyecto final</h1>
 E-Commerce: 
-<a hred="https://ecommerce-wpay.netlify.app/">Demo </a>
+<a href="https://ecommerce-wpay.netlify.app/">Demo </a>
 
 <h3>Tecnologías implementadas</h3>
 React JS <br>
