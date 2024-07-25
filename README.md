@@ -1,7 +1,7 @@
 # Proyecto final
 <p>Este proyecto ha sido una excelente oportunidad para aplicar mis habilidades en React JS y demostrar mi capacidad para desarrollar aplicaciones web completas. Agradezco cualquier comentario o sugerencia que puedan tener.</p>
 
-<a href="https://ecommerce-wpay.netlify.app/">Demo </a>
+➡️ <a href="https://ecommerce-wpay.netlify.app/">Demo </a>
 
 ## Tecnologías implementadas 🧑‍💻
 * **React JS**
