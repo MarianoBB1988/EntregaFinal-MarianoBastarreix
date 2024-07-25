@@ -11,10 +11,9 @@
 ## Características destacadas 🔍
 
 <p><strong>Interfaz de usuario moderna:</strong> Diseño limpio y responsivo adaptado para una experiencia de compra sin problemas en cualquier dispositivo.</p>
-<p>Gestión de productos: Visualización de productos, categorías y detalles en profundidad.</p>
-<p>Carrito de compras: Funcionalidad para agregar, eliminar y gestionar productos en el carrito.</p>
-<p>Proceso de pago: Integración de métodos de pago y gestión de órdenes.</p>
-<p>Autenticación de usuario: Inicio de sesión y registro para una experiencia personalizada.</p>
+<p<strong>Gestión de productos:</p> Visualización de productos, categorías y detalles en profundidad.</p>
+<p><strong>Carrito de compras: </strong>Funcionalidad para agregar, eliminar y gestionar productos en el carrito.</p>
+<p><strong>Autenticación de usuario:</strong> Inicio de sesión y registro para una experiencia personalizada.</p>
 
 ## Video de la demo 📹
 <a href="https://drive.google.com/file/d/1rIp313jJVTa94x10txcnQEvK-Dlwnwbg/view?usp=sharing"> Ver video </a>
