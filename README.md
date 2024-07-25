@@ -6,7 +6,6 @@ E-Commerce:
 React JS <br>
 Firebase
 <vr></vr>
-<h3>Video de la demo< 👓/h3>
+<h3>Video de la demo  👓 </h3>
 <a href="https://drive.google.com/file/d/1rIp313jJVTa94x10txcnQEvK-Dlwnwbg/view?usp=sharing"> Ver video </a>
 
-0
