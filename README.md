@@ -18,6 +18,9 @@
 ## Video de la demo 📹
 <a href="https://drive.google.com/file/d/1rIp313jJVTa94x10txcnQEvK-Dlwnwbg/view?usp=sharing"> Ver video </a>
 
+## Creado por 
+* **Mariano Bastarreix**
+  
 ## Project setup
 ```
 npm install
