@@ -10,7 +10,7 @@
 
 ## Características destacadas 🔍
 
-<p>Interfaz de usuario moderna: Diseño limpio y responsivo adaptado para una experiencia de compra sin problemas en cualquier dispositivo.</p>
+<p><strong>Interfaz de usuario moderna:</strong> Diseño limpio y responsivo adaptado para una experiencia de compra sin problemas en cualquier dispositivo.</p>
 <p>Gestión de productos: Visualización de productos, categorías y detalles en profundidad.</p>
 <p>Carrito de compras: Funcionalidad para agregar, eliminar y gestionar productos en el carrito.</p>
 <p>Proceso de pago: Integración de métodos de pago y gestión de órdenes.</p>
